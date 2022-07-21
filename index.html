@@ -6,16 +6,14 @@
         <div class="container">
             <div class="column">
                 <h3>HOME</h3>
-                <h2 class="score">0</h2> 
-                <div>
-                    <button id="home-score-btn-1" onclick="increaseHomeScoreByOne()">+ 1</button>
-                    <button id="home-score-btn-2" onclick="increaseHomeScoreByTwo()">+ 2</button>
-                    <button id="home-score-btn-3" onclick="increaseHomeScoreByThree()">+ 3</button>
-                </div>    
+                <h2 class="score" id="home-score">0</h2> 
+                <button id="home-score-btn-1" onclick="increaseHomeScoreByOne()">+ 1</button>
+                <button id="home-score-btn-2" onclick="increaseHomeScoreByTwo()">+ 2</button>
+                <button id="home-score-btn-3" onclick="increaseHomeScoreByThree()">+ 3</button>    
             </div>
             <div class="column">
                 <h3>GUEST</h3>
-                <h2 class="score">0</h2> 
+                <h2 class="score" id="guest-score">0</h2> 
                     <button id="guest-score-btn-1" onclick="increaseGuestScoreByOne()">+ 1</button>
                     <button id="guest-score-btn-2" onclick="increaseGuestScoreByTwo()">+ 2</button>
                     <button id="guest-score-btn-1" onclick="increaseGuestScoreByThree()">+ 3</button>
