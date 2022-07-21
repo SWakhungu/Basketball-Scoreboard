@@ -18,4 +18,22 @@ function increaseHomeScoreByThree(){
     homeScoreEl.textContent = homeScore
 }
 
-//For increasing home team score on the board//
+//For increasing guest team score on the board//
+let guestScoreBtnOne = document.getElementById("guest-score-btn-1")
+let guestScoreEl = document.getElementById("guest-score")
+let guestScore = 0
+
+function increaseGuestScoreByOne(){
+    guestScore += 1
+    guestScoreEl.textContent = guestScore
+}
+
+function increaseGuestScoreByTwo(){
+    guestScore += 2
+    guestScoreEl.textContent = guestScore
+}
+
+function increaseGuestScoreByThree(){
+    guestScore += 3
+    guestScoreEl.textContent = guestScore
+}
