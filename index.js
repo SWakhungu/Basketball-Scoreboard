@@ -37,3 +37,11 @@ function increaseGuestScoreByThree(){
     guestScore += 3
     guestScoreEl.textContent = guestScore
 }
+
+// For reseting the score to zero for new game//
+function resetScoreToZero(){
+    homeScore = 0;
+    homeScoreEl.textContent = 0;
+    guestScore = 0;
+    guestScoreEl.textContent = 0;
+}
