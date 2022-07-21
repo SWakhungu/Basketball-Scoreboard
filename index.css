@@ -14,8 +14,18 @@ body {
     color: #F94F6D;
     width: 120px;
     margin: 20px;
+    font-family: myFirstFont;
+    src: url(https://www.fontspace.com/cursed-timer-ulil-font-f29411)
 }
 
 button {
     background: none;
 }
+
+/* @font-face {
+    font-family: myFirstFont;
+    src: https://fonts2u.com/cursed-timer-ulil.font
+}
+h2 {
+    font-family: myFirstFont;
+} */
