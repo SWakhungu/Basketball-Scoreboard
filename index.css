@@ -1,6 +1,7 @@
 body {
     margin: 0;
     text-align: center;
+    background-color: #1F2937;
 }
 
 .container {
@@ -15,17 +16,31 @@ body {
     width: 120px;
     margin: 20px;
     font-family: myFirstFont;
-    src: url(https://www.fontspace.com/cursed-timer-ulil-font-f29411)
+    /* src: url(https://fonts2u.com/cursed-timer-ulil.font) */
 }
 
 button {
     background: none;
+    border-color: white;
+    border-style: groove;
+    color: #9AABD8;
+    border-radius: 4px;
 }
 
-/* @font-face {
-    font-family: myFirstFont;
-    src: https://fonts2u.com/cursed-timer-ulil.font
+@font-face {
+    font-family: cursed timer;
+    src: url(Cursed/CursedTimerULiL.ttf)
 }
 h2 {
     font-family: myFirstFont;
+} */
+
+h3 {
+    color: white;
+    font-size: 40px;
+    font-family: Verdana;
+}
+
+/* .new-game{
+    
 } */
